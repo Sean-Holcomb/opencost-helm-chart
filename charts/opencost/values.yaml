@@ -395,6 +395,8 @@ opencost:
       # -- The number of 1d intervals the Collector DataSource should maintain
       retention1d: 15
 
+    exportKubeModel: true
+
     # Persistent volume claim for storing the data. eg: csv file
     persistence:
       enabled: false
